@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 100vh;
+    padding: 20px;
+}
+.search>*{
+    margin: 15px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+    font-family: poppins;
+}
+.search-bar{
+    width: 100%;
+    height: 50px;
+    font-family: poppins;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.result{
+    width:100%;
+    height: 350px;
+    background-color: rgb(236, 235, 235);
+    border-radius: 10px;
+}
+
+.city{
+    height: 15%;
+    background-color: rgb(160, 156, 156);
+    border-radius: 10px;
+}
+.weather{
+    height: 85%;
+}
+
+.city{
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 5px;
+    font-family: poppins;
+}
+.weather{
+    text-align: center;
+    font-size:1.4rem;
+    font-family: poppins;
+}
+.weather>*{
+    margin: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Api</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Weather</h1>
+        <div class="search">
+            <input type="text" class="search-bar" id="search-bar" placeholder="Enter your city.....">
+            <button class="btn" onclick="run()">Search</button>
+        </div>
+        <div class="result">
+            <div class="city" id="name">----</div>
+            <div class="weather">
+                <div id="region" class="region">----</div>
+                <div class="status">
+                    <div id="res" class="res">----</div>
+                    <img src="" id="icon" class="icon">
+                </div>
+                <div id="temp-f" class="tempf">----</div>
+                <div id="temp-c" class="tempc">----</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
